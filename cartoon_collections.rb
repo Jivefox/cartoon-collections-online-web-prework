@@ -6,8 +6,9 @@ end
 puts dwarf_count
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteers)
+  planeteers.map do |planeteer|
+    planeteer.titlize 
 end
 
 def long_planeteer_calls# code an argument here
