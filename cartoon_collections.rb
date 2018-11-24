@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarf_count = []
- dwarves.each.with_index(1) do |index, dwarf|
+ dwarves.each.with_index(1) do |dwarf, index|
    dwarf_count << "#{index}. #{dwarf}"
 end
 puts dwarf_count
